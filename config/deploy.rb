@@ -2,7 +2,10 @@
 lock "~> 3.17.1"
 
 set :application, "my_app_name"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:robinaaquino/hello_app.git"
+
+set :rvm_ruby_version
+set :default_env, { rvm_bin_path: "~/.rvm/bin" }
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
