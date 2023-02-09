@@ -14,6 +14,7 @@ require "capistrano/deploy"
 # or
 require "capistrano/scm/git"
 require 'capistrano/rvm'
+require "capistrano/secrets_yml"
 
 install_plugin Capistrano::SCM::Git
 
